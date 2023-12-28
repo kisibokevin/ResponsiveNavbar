@@ -58,8 +58,11 @@ body{
         display: flex;
     }
     .links{
-        display: none;
+    display: none;
       width: 100%;
+    }
+    .links.mobile-hidden {
+        display: none;
     }
     .navbar{
         flex-direction: column;
